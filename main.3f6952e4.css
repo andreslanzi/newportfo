@@ -4805,9 +4805,10 @@ body.minimal {
   }
 }
 .background-image-container {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: top;
+  background-color: black;
 }
 .btn {
   -webkit-transition: all 0.2s linear;
